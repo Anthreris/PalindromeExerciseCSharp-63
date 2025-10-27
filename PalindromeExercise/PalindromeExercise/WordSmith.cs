@@ -13,7 +13,7 @@ public class WordSmith
             reverseText += text[i];
         }
         
-        if (reverseText == text)
+        if (reverseText.ToLower() == text.ToLower())
         {
             return true;
         }

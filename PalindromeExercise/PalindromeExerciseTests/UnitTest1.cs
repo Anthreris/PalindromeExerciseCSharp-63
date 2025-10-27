@@ -16,6 +16,7 @@ namespace PalindromeExerciseTests
         [InlineData("boat", false)]
         [InlineData("red", false)]
         [InlineData("star", false)]
+        [InlineData("Racecar", true)]
         public void Test1(string text, bool expected)
         {
             // Arrange
