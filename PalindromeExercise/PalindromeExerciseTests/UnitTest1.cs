@@ -18,13 +18,14 @@ namespace PalindromeExerciseTests
         [InlineData("star", false)]
         public void Test1(string text, bool expected)
         {
-            //Arrange
+            // Arrange
             var wordtest = new WordSmith();
             
-            //Act
-            
-            //Assert
-            //Assert.Equal;
+            // Act
+            var actual = wordtest.IsAPalindrome(text);
+
+            // Assert
+            Assert.Equal(expected, actual);
         }
     }
 }

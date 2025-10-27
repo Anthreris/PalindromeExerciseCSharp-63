@@ -6,6 +6,20 @@ public class WordSmith
 {
     public bool IsAPalindrome(string text)
     {
-        throw new NotImplementedException();
+        var reverseText = "";
+
+        for (var i = text.Length - 1; i >= 0; i--)
+        {
+            reverseText += text[i];
+        }
+        
+        if (reverseText == text)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
