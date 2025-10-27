@@ -1,5 +1,6 @@
 using System;
 using Xunit;
+using PalindromeExercise;
 
 namespace PalindromeExerciseTests
 {
@@ -18,12 +19,12 @@ namespace PalindromeExerciseTests
         public void Test1(string text, bool expected)
         {
             //Arrange
-            var wordtest = new Palindrome();
+            var wordtest = new WordSmith();
             
             //Act
             
             //Assert
-            Assert.Equal;
+            //Assert.Equal;
         }
     }
 }
